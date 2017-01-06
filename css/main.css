@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.banner {
+  background: #fff;
+}
+.topbar{
+  border-top: 10px solid #546770;
+}
+.kid-bg{
+  min-height: 450px;
+  background: url(../images/banners/kid.jpg) no-repeat;;
+}
+.contaner{
+  width:960px;
+  margin: 0 auto;
+}
+ul.topnav{
+  text-align: center;
+  margin-top: 15px;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.topnav li{
+  display: inline-block;
+  margin: 0 20px;
+}
+ul.topnav li a{
+font-weight: 400;
+color: #546770;
+font-size: 18px;
+}
