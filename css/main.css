@@ -47,13 +47,13 @@ ul {
   border-top: 10px solid #546770;
 }
 .kid-bg{
-  min-height: 450px;
-  background: url(../images/banners/kid.jpg) no-repeat;;
+  min-height: 415px;
+  background: url(../images/banners/kid.jpg) no-repeat;
 }
 
 ul.topnav{
   text-align: center;
-  margin-top: 15px;
+  padding-top: 15px;
 }
 
 ul.topnav li{
@@ -69,4 +69,37 @@ font-size: 18px;
   margin: 0 auto;
   display: block;
   margin-top: 30px;
+}
+.social-icon{
+  position: absolute;
+  top: 50px;
+  right: 0;
+  text-align: center;
+  width: 106px;
+}
+.social-icon .logo1{
+  background-color: #73c6d1;
+}
+.social-icon .logo2{
+  background-color: #eb606e;
+}
+.social-icon .logo3{
+  background-color: #2bc800;
+}
+.social-icon a{
+  width: 36px;
+  height: 36px;
+  color: #fff;
+  margin: 2px;
+  display: inline-block;
+  border-radius: 18px;
+  line-height: 36px;
+  font-size: 18px;
+}
+ul.nav li a {
+  position: absolute;
+  top: 27px;
+  right: 97px;
+  font-size: 18px;
+  color: white;
 }
