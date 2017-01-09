@@ -5,6 +5,11 @@ body{
 a {
   text-decoration: none;
 }
+*, :before, :after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 .banner {
   background: #fff;
 }
@@ -15,7 +20,7 @@ a {
   min-height: 450px;
   background: url(../images/banners/kid.jpg) no-repeat;;
 }
-.contaner{
+.container{
   width:960px;
   margin: 0 auto;
 }
@@ -36,4 +41,18 @@ ul.topnav li a{
 font-weight: 400;
 color: #546770;
 font-size: 18px;
+}
+.logo{
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+}
+.banner .container {
+  position: relative;
+}
+.banner .container .follow-us{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
 }
