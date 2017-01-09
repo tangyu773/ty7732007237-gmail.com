@@ -33,6 +33,16 @@ ul {
 .banner {
   background: #fff;
 }
+.banner .container {
+  position: relative;
+}
+.banner .container .follow-us{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+}
+
 .topbar{
   border-top: 10px solid #546770;
 }
@@ -59,13 +69,4 @@ font-size: 18px;
   margin: 0 auto;
   display: block;
   margin-top: 30px;
-}
-.banner .container {
-  position: relative;
-}
-.banner .container .follow-us{
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: block;
 }
