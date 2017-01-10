@@ -103,3 +103,29 @@ ul.nav li a {
   font-size: 18px;
   color: white;
 }
+.sky-content{
+  background: #73c7d1;
+  min-height: 400px;
+  margin-top: 5px;
+}
+.foot{
+  margin: 0;
+  padding: 0;
+  background: #212121;
+  height: 200px;
+  color: #fff;
+}
+.fc{
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding:20px 0;
+  text-align:center;
+
+}
+.weix{
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  display:block;
+}
