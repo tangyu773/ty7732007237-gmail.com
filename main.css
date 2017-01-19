@@ -1,0 +1,61 @@
+p {
+    margin: 20px 20px 0px;
+    clear:both;
+}
+.meter {
+    margin: 10px 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: sans-serif;
+    display: block;
+    float: left;
+    clear: left;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.meter:hover {
+    background: #ff8;
+    cursor: pointer;
+}
+.meter li {
+    border: 1px solid #ccc;
+    background: #fff;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    padding-top: 8px;
+    float: left;
+    border-radius: 25px;
+    margin-right: 6px;
+    display: inline-block;
+    color: #ccc;
+}
+.meter li:last-child {
+    float: none;
+    margin: 0;
+}
+.meter li.on {
+    background: #2f2;
+    box-shadow: inset 0px 1px 0px 2px rgba(0,0,0,0.1);
+    border: 1px solid #777;
+    color: #000;
+    font-weight: bold;
+    text-shadow: 0px 1px #fff;
+}
+.meter1:after {
+    content: "_.throttle()";
+    padding: 0px 5px;
+}
+.meter2:after {
+    content: "_.debounce()";
+    padding: 0px 5px;
+}
+.blink:after {
+    font-weight: bold;
+}

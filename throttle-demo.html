@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="http://cdn.bootcss.com/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="main.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <p>Click the meters repeatedly. Events throttled/filtered by 1 second.</p>
+<ul class="meter meter1">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+</ul>
+<ul class="meter meter2">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+</ul>
+<p>
+    <code>_.throttle()</code> will fire once, and subsequent clicks will fire
+    only after 1 second has passed&mdash;but the subsequent click will happen.
+    <strong>This is not good for filtering double-clicks.</strong>
+</p>
+<p>
+    <code>_.debounce()</code> (with a <code>true</code> third parameter)
+    will <em>filter</em> subsequent clicks.
+    <strong>This <em>is</em> good for filtering accidental clicks.</strong>
+</p>
+
+
+</body>
+</html>
